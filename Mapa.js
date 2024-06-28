@@ -1,6 +1,7 @@
 function soma(){
-    var caixa1 = document.getElementById("caixa1").value;
-    var caixa2 = document.getElementById("caixa2").value;
-    var caixa3 = document.getElementById("caixa3").value;
-    
+    var h = document.querySelector("caixa1").value;
+    var m = document.querySelector("caixa2").value;
+    var c = document.querySelector("caixa3").value;
+    var caixa4 = h * m * c; 
+    alert(caixa4);
 }
